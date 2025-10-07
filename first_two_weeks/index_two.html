@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <style>
+            ul {
+                list-style-image: url('alien.gif');
+            }
+
+            ul.a {
+                list-style-type: circle;
+            }
+            
+            ul.b {
+                list-style-type: square;
+            }
+
+            a:link {
+                color:#FF0000;
+            }
+            
+            a:visited {
+                color:#00FF00;
+            }
+            
+            a:hover {
+                color:#FF00FF;
+            }
+
+            a:active {
+                color:#0000FF;
+            }
+
+            h1 {
+                font-size:2.75em;
+            }
+
+            p.center {
+                text-align:center;
+                color: red;
+            }
+
+            body {
+                background-image: url("earth_background.gif");
+                background-repeat:no-repeat;
+                background-position:right top;
+            }
+
+            table, th, td {
+                border: 1px solid orangered;
+
+            }
+
+            th {
+                background-color:blue;
+                color:white;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            p {
+                font-family:"Times New Roman";
+            }
+
+            p.oblique {
+                font-style:oblique;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+        <h1>This is a head</h1>
+        <p>This is a paragraph.</p>
+
+        <p>This page has an image as the background!</p>
+
+        <h1 class="center">This heading will not be affected</h1>
+        <h2 style="background-color:rgb(255, 0, 0);">rgb(255, 0, 0)</h2>
+        <h2 style="background-color:#0000ff;">#0000ff</h2>
+        <p class="center">This paragraph will be red and center-aligned.</p>
+
+        <p class="oblique">This paragraph should be oblique</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+            <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+            <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+        </div>
+        </div>
+
+        <p>Example of unordered lists:</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <div style="overflow-x: auto;">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+
+            <tr>
+                <th>Peter</th>
+                <th>Griffin</th>
+            </tr>
+        </table>
+        </div>
+
+    </body>
+
+</html>

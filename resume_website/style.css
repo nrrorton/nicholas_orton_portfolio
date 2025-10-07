@@ -1,0 +1,78 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(135deg, #004aad, #007bff);
+    color: #fff;
+    text-align: center;
+    padding: 3em 1em;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.button {
+    display: inline-block;
+    background: #fff;
+    color: #004aad;
+    padding: 0.8em 1.6em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    max-width: 900px;
+    margin: 2.5em auto;
+    padding: 0 1.5em;
+}
+
+h2 {
+    border-bottom: 2px solid #004aad;
+    padding-bottom: 0.4em;
+    color: #004aad;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+.job {
+    margin-bottom: 2em;
+}
+
+.job h3 {
+    color: #004aad;
+    margin-bottom: 0.3em;
+}
+
+.job em {
+    color: #555;
+    font-style: italic;
+}
+
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1.5em 0;
+    margin-top: 2em;
+}
+
+footer a {
+    color: #66b2ff;
+    text-decoration: none;
+}
